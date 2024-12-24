@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;
+	background: #ffffff;
+}
+
+.container {
+	padding: 2rem;
+	max-width: 80ch;
+		margin: 2rem auto;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.step-title {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	color: #333;
+}
+
+.step-content {
+	font-family: monospace;
+	background: #d4d4d4;
+	padding: 0.5rem;
+	border-radius: 4px;
+	overflow-wrap: break-word;
+	white-space: normal;
+}
+
+.color-preview {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	padding: 1rem;
+	background: #d4d4d4;
+	margin-top: 1rem;
+}
+
+.color-box {
+	width: 60px;
+	height: 60px;
+}
